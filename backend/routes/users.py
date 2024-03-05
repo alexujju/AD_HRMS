@@ -18,6 +18,7 @@ logging.basicConfig(filename=log_file, level=logging.DEBUG, format='%(asctime)s 
 # Onboarding form route
 @users_bp.route('/onboard', methods=['POST'])
 def onboard_user():
+    AD_conn = None
     try:
         # Extract user data from the request JSON
         data = request.json
@@ -67,4 +68,6 @@ def onboard_user():
         logging.error(f"Error during user onboarding: {e}")
         return jsonify({'error': str(e)}), 500
     finally:
-        AD_conn.unbind()
+        if AD_conn:
+            AD_conn.unbind()
+        

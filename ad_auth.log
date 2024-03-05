@@ -97,3 +97,29 @@
 2024-03-05 14:17:49,396 - INFO - User 'john.doe2' created successfully in Active Directory.
 2024-03-05 14:17:49,400 - INFO - User onboarded successfully and created in Active Directory
 2024-03-05 14:17:49,406 - INFO - 127.0.0.1 - - [05/Mar/2024 14:17:49] "POST /users/onboard HTTP/1.1" 200 -
+2024-03-05 16:19:26,853 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-05 16:19:26,855 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-05 16:23:18,246 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-05 16:23:18,247 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-05 16:23:25,782 - INFO - Successfully connected to Active Directory: ldap://13.126.63.164
+2024-03-05 16:23:25,783 - DEBUG - Arguments received: conn=ldap://13.126.63.164:389 - cleartext - user: administrator@testad.local - not lazy - bound - open - <local: 172.28.4.144:56273 - remote: 13.126.63.164:389> - tls not started - listening - SyncStrategy - internal decoder, username=john.doe2, email=john.doe@example.com, department=Engineering, emp_id=12345, display_name=John Doe, first_name=John, last_name=Doe, phone_number=1234567890, designation=test
+2024-03-05 16:23:26,174 - INFO - User 'john.doe2' created successfully in Active Directory.
+2024-03-05 16:23:26,175 - INFO - User onboarded successfully and created in Active Directory
+2024-03-05 16:23:26,179 - INFO - 127.0.0.1 - - [05/Mar/2024 16:23:26] "POST /users/onboard HTTP/1.1" 200 -
+2024-03-05 16:31:55,152 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-05 16:31:55,153 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-05 16:32:13,114 - INFO - Successfully connected to Active Directory: ldap://13.126.63.164
+2024-03-05 16:32:13,115 - DEBUG - Arguments received: conn=ldap://13.126.63.164:389 - cleartext - user: administrator@testad.local - not lazy - bound - open - <local: 172.28.4.144:56818 - remote: 13.126.63.164:389> - tls not started - listening - SyncStrategy - internal decoder, username=john.doe23, email=john.doe23@testad.local, department=Engineering, emp_id=123456, display_name=John Doe23, first_name=John, last_name=Doe, phone_number=1224567890, designation=test1
+2024-03-05 16:32:13,510 - INFO - User 'john.doe23' created successfully in Active Directory.
+2024-03-05 16:32:13,514 - INFO - User onboarded successfully and created in Active Directory
+2024-03-05 16:32:13,518 - INFO - 127.0.0.1 - - [05/Mar/2024 16:32:13] "POST /users/onboard HTTP/1.1" 200 -
+2024-03-05 16:35:58,728 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-05 16:35:58,729 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-05 16:42:48,751 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-03-05 16:42:48,751 - INFO - [33mPress CTRL+C to quit[0m
+2024-03-05 16:43:03,223 - INFO - 127.0.0.1 - - [05/Mar/2024 16:43:03] "[31m[1mPOST /users/onboard HTTP/1.1[0m" 400 -
